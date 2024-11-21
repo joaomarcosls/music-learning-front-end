@@ -72,11 +72,11 @@ async function buscaDados() {
   }
 
   .cards-container {
-    @apply flex w-full gap-4;
+    @apply grid grid-cols-1 md:grid-cols-2 w-full gap-4;
   }
 
   .card {
-    @apply w-1/2 bg-indigo-50 dark:bg-gray-800 rounded-lg p-4 min-w-40 shadow-md flex items-center justify-between transition-transform duration-200;
+    @apply w-full bg-indigo-50 dark:bg-gray-800 rounded-lg p-4 min-w-40 shadow-md flex items-center justify-between transition-transform duration-200;
   }
 
   .card:hover {
